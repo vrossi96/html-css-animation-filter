@@ -52,6 +52,14 @@
 }
 
 /* Esercizio 7 */
+.ex-7-img {
+  /* * non inserisco filter: grayscale(0) e sepia(0) perchè è di default */
+  transition: filter 2s, sepia 2s;
+}
+.ex-7-img:hover {
+  filter: grayscale(1);
+  filter: sepia(0.5);
+}
 
 /* Esercizio 8 */
 

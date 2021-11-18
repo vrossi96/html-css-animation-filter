@@ -150,3 +150,65 @@
 }
 
 /* Esercizio 13 */
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: sposta-antiorario 2s linear;
+}
+.ex-13-button:hover .ex-13-top-white {
+  animation: sposta-orario 2s linear;
+}
+@keyframes sposta-orario {
+  0% {
+    left: 10%;
+  }
+  /* Angolo alto destra */
+  20% {
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+  /* Angolo basso destra */
+  40% {
+    left: calc(100% - 30px);
+    top: calc(100% - 10px);
+  }
+  /* Angolo basso sinistra */
+  60% {
+    left: -30px;
+    top: calc(100% - 10px);
+  }
+  /* Angolo alto sinistra */
+  80% {
+    left: -30px;
+    top: -10px;
+  }
+  100% {
+    left: 10%;
+  }
+}
+@keyframes sposta-antiorario {
+  0% {
+    right: 20%;
+  }
+  /* Angolo basso sinistra */
+  20% {
+    right: calc(100% - 30px);
+    bottom: -10px;
+  }
+  /* Angolo alto sinistra */
+  40% {
+    right: calc(100% - 30px);
+    bottom: calc(100% - 10px);
+  }
+  /* Angolo alto destra */
+  60% {
+    right: -30px;
+    bottom: calc(100% - 10px);
+  }
+  /* Angolo basso destra */
+  80% {
+    right: -30px;
+    bottom: -10px;
+  }
+  100% {
+    right: 20%;
+  }
+}

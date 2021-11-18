@@ -102,6 +102,20 @@
 }
 
 /* Esercizio 11 */
+.ex-11-icon:hover {
+  animation: quartospinnerino 2s cubic-bezier(0.46, 0.46, 1, 0.56);
+}
+@keyframes quartospinnerino {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 /* Esercizio 12 */
 

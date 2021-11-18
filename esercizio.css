@@ -26,6 +26,13 @@
 }
 
 /* Esercizio 4 */
+.ex-4-square {
+  filter: opacity(1);
+  transition: filter 1s;
+}
+.ex-4-square:hover {
+  filter: opacity(0);
+}
 
 /* Esercizio 5 */
 

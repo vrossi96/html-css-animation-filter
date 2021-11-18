@@ -8,6 +8,13 @@
 }
 
 /* Esercizio 2 */
+.ex-2-square {
+  /* *width non presente qua perché già presente in style.css */
+  transition: width 2s ease-out;
+}
+.ex-2-square:active {
+  width: 100%;
+}
 
 /* Esercizio 3 */
 
